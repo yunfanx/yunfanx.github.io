@@ -159,7 +159,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/05/22/LaTeXNotes/" class="post-title-link" itemprop="url">未命名</a>
+            <a href="/2021/05/22/LaTeXNotes/" class="post-title-link" itemprop="url">在 Word 中使用简单的 LaTeX 样式命令以简化排版工作量</a>
         </h2>
 
         <div class="post-meta">
@@ -170,7 +170,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-05-22 13:38:17 / 修改时间：14:00:53" itemprop="dateCreated datePublished" datetime="2021-05-22T13:38:17+08:00">2021-05-22</time>
+              <time title="创建时间：2021-05-22 14:05:59 / 修改时间：14:05:39" itemprop="dateCreated datePublished" datetime="2021-05-22T14:05:59+08:00">2021-05-22</time>
             </span>
 
           
@@ -184,7 +184,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="在-Word-中使用简单的-LaTeX-样式命令以简化排版工作量"><a href="#在-Word-中使用简单的-LaTeX-样式命令以简化排版工作量" class="headerlink" title="在 Word 中使用简单的 LaTeX 样式命令以简化排版工作量"></a>在 Word 中使用简单的 LaTeX 样式命令以简化排版工作量</h1><h2 id="插入图片（重要）"><a href="#插入图片（重要）" class="headerlink" title="插入图片（重要）"></a>插入图片（重要）</h2><p>在插入图片时，不要将图片直接拖入 Word，而是使用 <code>figure</code> 插入图片，图片保存在文件夹中即可。例如</p>
+          <h2 id="插入图片（重要）"><a href="#插入图片（重要）" class="headerlink" title="插入图片（重要）"></a>插入图片（重要）</h2><p>在插入图片时，不要将图片直接拖入 Word，而是使用 <code>figure</code> 插入图片，图片保存在文件夹中即可。例如</p>
 <figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">\begin</span>&#123;figure&#125;[htbp]</span><br><span class="line">	<span class="keyword">\centering</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">\caption</span>&#123;泡泡玛特百度搜索指数的年龄分布&#125;<span class="comment">% 图片在文章中显示的标题</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">\includegraphics</span>[width = 0.6<span class="keyword">\linewidth</span>]&#123;popmartBaiduIndex.png&#125;<span class="comment">% 图片的文件名</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">\label</span>&#123;popmartBaidu&#125;<span class="comment">% 方便文章别处引用此图。当然，如果别处不引用，这条可以删去</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">\end</span>&#123;figure&#125;</span><br></pre></td></tr></table></figure>
 <p>这样，Word 文档中将只有代码、不见图片。</p>
 <p>将多张图片组合插入的方法较为复杂，此处略去。</p>
